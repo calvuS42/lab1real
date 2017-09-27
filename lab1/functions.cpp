@@ -31,8 +31,7 @@ int rand4(int &a) {
 }
 
 int rand5(int & a) {
-	return abs(rand1(a) - rand2(a)) % m;
-	
+	return abs(rand1(a) - rand2(a)) % m;	
 }
 
 double rand6(int & a) {
